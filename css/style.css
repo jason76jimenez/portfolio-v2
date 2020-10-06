@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* header background image */
+
+.header {
+    background-image: url("https://wallpaperaccess.com/full/1650896.jpg");
+    height: 125px;
+    width: 100%;
+    opacity: 1;
+    image-orientation: center;
+    font-weight: bolder;
+    color: white;
+    font-size: 15px;
+    position: relative;
+}
+/* Header text */
+
+#name, .contact { /* title for nav and footer bar */
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 35px;
+    color: white;
+    position: relative;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+}
+.header nav ul {
+    font-size: 20px;
+    text-align: right;
+    background-color: rgba(255,255,255,0.8);
+    height: 25px;
+    margin-top: 10px;
+}
+.header nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+}
+.cool-sub {
+    right: 10px;
+    position: absolute;
+    bottom: 0;
+    font-size: 25px;
+    background-color:black;
+}
+
+/* Header ends-body starts */
+
+body {
+    padding: 5px 15px 10px 15px;
+}
+.text {
+    font-size: 20px;
+}
+#portfolio, .work-experience, .me, .hobbies, .contact-me { 
+    width: 100%;
+    font-size: 30px;
+}
+
+/* box grid begins */
+.service-grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 10px;
+}
+.experience-grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 90%;
+    border: 1px solid rgba(0,0,0,0.5);
+    font-size: 1.5rem;
+}
+.resume-grid-item, .horiseon-grid-item, .run-buddy-grid-item, .portfolio-grid-item, .work-experience-grid-item {
+    border: solid;
+    text-align: center;
+}
+.work-experience-grid-item {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+.portfolio-grid-item {
+    writing-mode: vertical-rl;
+}
+/* box attributes */
+.box1 {
+    grid-column: 2/6;
+    grid-row: 1/2;
+}
+.box2 {
+    grid-column: 2/4;
+    grid-row: 2/7;
+}
+.box3 {
+    grid-column: 4/6;
+    grid-row: 2/7;
+}
+.box0 {
+    grid-column: 1/2;
+    grid-row: 1/7;
+}
+.box4 {
+    grid-column: -1/-2;
+    grid-row: -1/-7;
+}
+/* box grid images */
+.box0 {
+    background-color: ;
+    width:100%;
+    height: 100%;
+
+}
+.box1 {
+    background-image: url("https://www.theladders.com/wp-content/uploads/resume-190916-1000x563.jpg");
+    width: 100%;
+    opacity: 0.5;
+    image-orientation: center;
+    height: 150px;
+}
+.box2 {
+    background-image: url("./social-media-marketing.jpg");
+    width: 100%;
+    opacity: 0.5;
+    image-orientation: center;
+}
+.box3 {
+    background-image: url("https://www.verywellfit.com/thmb/pKPO5vlndEhVh_AD3-9YtdL5uKc=/2121x1193/smart/filters:no_upscale()/GettyImages-1061745418-e91c3dd01a0f4dc3a8a80f12222a0644.jpg");
+    width: 100%;
+    opacity: 0.5;
+    image-orientation: center;
+}
+.box4 {
+    background-image: url("https://www.funcage.com/blog/wp-content/uploads/2013/03/Hilarious-Real-Resumes-Actually-Received-by-Companies-020-550x810.jpg");
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    image-orientation: center;
+}
+/* Footer and contact section */
+.footer {
+    background-image: url("https://wallpaperaccess.com/full/1650896.jpg");
+    height: 100px;
+    width: 100%;
+    opacity: 1;
+    image-orientation: center;
+    position: relative;
+}
+.to-contact {
+    text-align: right;
+    margin-top: 10px;
+
+}
+.to-contact li {
+    display:inline;
+    margin-right: 10px;
+    font-size: 20px;
+    background-color: rgba(255,255,255,0.8);
+}

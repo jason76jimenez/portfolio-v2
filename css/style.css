@@ -1,15 +1,25 @@
 .header {
-    background-color: black;
-    height: 200px;
+    position: sticky;
+    top: 0;
+    background-color: gray;
+    opacity: 1;
+    z-index: 10;
+    height: 150px;
     width: 100%;
     font-weight: bolder;
-    color: white;
+}
+.bottom-wrapper{
+    z-index: 1;
 }
 /* Header text */
 
-#name { /* title for nav and footer bar */
-    margin-left: 20px;
-    font-size: 35px;
+.name { /* title for nav and footer bar */
+    margin-top: 20px;
+    padding: auto;
+}
+h1 { /* h1 is the name text */
+    text-align: center;
+    font-size: 50px;
 }
 nav {
     display:flex;
@@ -19,6 +29,7 @@ nav {
     font-size: 20px; 
     margin-top: 20px;
     margin-right: 15px;
+    text-align: right;
 }
 .tabs {
     display: inline;
@@ -26,10 +37,10 @@ nav {
     padding: 3px;
     background-color: white;
 }
-.cool-sub {
-    display:flex;
+.cool-sub { 
     font-size: 25px;
     text-align: right;
+    margin-right: 15px;
 }
 
 /* Header ends-body starts */
@@ -41,8 +52,17 @@ body {
     font-size: 20px;
 }
 #portfolio, .work-experience, .me, .hobbies, .contact-me { 
-    width: 100%;
-    font-size: 30px;
+    font-size: 20px;
+}
+a:link {
+    color: grey;
+}
+a:hover {
+    color: black;
+    font-size: 25px;
+    background: grey;
+    border-radius: 5px;
+    border-bottom: transparent;
 }
 
 /* box grid begins */
@@ -61,7 +81,7 @@ body {
     font-size: 1.5rem;
 }
 .resume-grid-item, .horiseon-grid-item, .run-buddy-grid-item, .portfolio-grid-item, .work-experience-grid-item {
-    border: solid;
+    border: 1px solid;
     text-align: center;
 }
 .work-experience-grid-item {

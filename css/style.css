@@ -1,4 +1,4 @@
-section {
+body {
     background-color: rgb(226, 228, 240);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -16,13 +16,13 @@ a {
     font-weight: bolder;
     color:white;
 }
-/* Header text */
 
-.name { /* title for nav and footer bar */
+/* Header text */
+.name {
     margin-top: 20px;
     padding: auto;
 }
-h1 { /* h1 is the name text */
+h1 {
     text-align: center;
     font-size: 50px;
 }
@@ -50,7 +50,6 @@ nav {
 }
 
 /* Header ends-body starts */
-
 body {
     padding: 5px 15px 10px 15px;
 }
@@ -69,19 +68,20 @@ a:hover {
 }
 
 /* box grid begins */
-.wrapper, .wrapper2 {
+.wrapper {
     display: grid;
     justify-content: center;
     grid-gap: 5px;
 }
 .box1 {
     grid-column: 1/2;
-    grid-row: 1/3;
+    grid-row: 1/2;
     font-size: 30px;
     border-right: solid black 2px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-right: 10px;
+    text-align: right;
 }
 .box2 {
     grid-column: 5/9;
@@ -93,109 +93,58 @@ a:hover {
     grid-column: 1/2;
     grid-row: 2/3;
     font-size: 33px;
-    text-align: right;
+    border-right: solid black 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-right: 10px;
+    text-align: right;
 }
 .box4 {
     grid-column: 5/9;
     grid-row: 2/3;
     padding-top: 20px;
+    font-size: 18px;
 }
 .box5 {
     grid-column: 1/2;
-    grid-row: 1/3;
-    
-    
+    grid-row: 3/6;
     font-size: 30px;
     border-right: solid black 2px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-right: 10px;
+    text-align: right;
+    display: flex;
+    align-content: center;
 }
 .box6 {
-    grid-row: 4/5;
+    grid-row: 3/6;
     grid-column: 5/9;
+    padding-top: 20px;
+    font-size: 18px;
+    align-content: center;
+}
+.resume {
+    background-image: url("https://lithub.com/wp-content/uploads/2019/07/M43_beletsky.jpg");
+    height: 250px;
+    width: 80%;
+}
+.horiseon {
+    background-image: url("https://cranialintelligence.files.wordpress.com/2010/04/ged-horizon-pic1.jpg");
+    height: 250px;
+    width: 80%;
+}
+.run-buddy {
+    background-image: url("https://www.verywellfit.com/thmb/dJUbxob0Qa1YuqupVS06STY6Utk=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1061745418-e91c3dd01a0f4dc3a8a80f12222a0644.jpg");
+    height: 250px;
+    width: 80%;
+}
+.portfolio {
+    background-image: url("https://pics.freeartbackgrounds.com/midle/Sky_with_Clouds_and_Sun_Background-1376.jpg");
+    height: 250px;
+    width: 80%;
 }
 
-/* .service-grid-wrapper {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding-top: 10px;
-}
-.experience-grid-container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    width: 90%;
-    border: 1px solid rgba(0,0,0,0.5);
-    font-size: 1.5rem;
-}
-.resume-grid-item, .horiseon-grid-item, .run-buddy-grid-item, .portfolio-grid-item, .work-experience-grid-item {
-    border: 1px solid;
-    text-align: center;
-}
-.work-experience-grid-item {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-}
-.portfolio-grid-item {
-    writing-mode: vertical-rl;
-} */
-/* box attributes */
-/* .box1 {
-    grid-column: 2/6;
-    grid-row: 1/2;
-}
-.box2 {
-    grid-column: 2/4;
-    grid-row: 2/7;
-}
-.box3 {
-    grid-column: 4/6;
-    grid-row: 2/7;
-}
-.box0 {
-    grid-column: 1/2;
-    grid-row: 1/7;
-}
-.box4 {
-    grid-column: -1/-2;
-    grid-row: -1/-7;
-}
-/* box grid images */
-/*.box0 {
-    background-color: ;
-    width:100%;
-    height: 100%; */
-
-/* }
-.box1 {
-    background-image: url("https://www.theladders.com/wp-content/uploads/resume-190916-1000x563.jpg");
-    width: 100%;
-    opacity: 0.5;
-    image-orientation: center;
-    height: 150px;
-}
-.box2 {
-    background-image: url("./social-media-marketing.jpg");
-    width: 100%;
-    opacity: 0.5;
-    image-orientation: center;
-}
-.box3 {
-    background-image: url("https://www.verywellfit.com/thmb/pKPO5vlndEhVh_AD3-9YtdL5uKc=/2121x1193/smart/filters:no_upscale()/GettyImages-1061745418-e91c3dd01a0f4dc3a8a80f12222a0644.jpg");
-    width: 100%;
-    opacity: 0.5;
-    image-orientation: center;
-}
-.box4 {
-    background-image: url("https://www.funcage.com/blog/wp-content/uploads/2013/03/Hilarious-Real-Resumes-Actually-Received-by-Companies-020-550x810.jpg");
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-    image-orientation: center;
-}
 /* Footer and contact section */
 .footer {
     background-color: black;

@@ -144,6 +144,11 @@ a:hover {
     height: 250px;
     width: 80%;
 }
+.group-project {
+    background-image: url("https://cff2.earth.com/uploads/2019/06/07144912/Millions-of-cardiovascular-deaths-linked-to-not-eating-enough-fruits-and-veggies-730x410.jpg");
+    height: 250px;
+    width: 80%;
+}
 
 /* Footer and contact section */
 .footer {

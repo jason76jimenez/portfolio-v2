@@ -124,30 +124,41 @@ a:hover {
     font-size: 18px;
     align-content: center;
 }
+/* resume images */
 .resume {
     background-image: url("https://lithub.com/wp-content/uploads/2019/07/M43_beletsky.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     height: 250px;
-    width: 80%;
+    width: 100%;
 }
 .horiseon {
     background-image: url("https://cranialintelligence.files.wordpress.com/2010/04/ged-horizon-pic1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     height: 250px;
-    width: 80%;
+    width: 100%;
 }
 .run-buddy {
     background-image: url("https://www.verywellfit.com/thmb/dJUbxob0Qa1YuqupVS06STY6Utk=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1061745418-e91c3dd01a0f4dc3a8a80f12222a0644.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     height: 250px;
-    width: 80%;
+    width: 100%;
 }
 .portfolio {
     background-image: url("https://pics.freeartbackgrounds.com/midle/Sky_with_Clouds_and_Sun_Background-1376.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     height: 250px;
-    width: 80%;
+    width: 100%;
 }
 .group-project {
     background-image: url("https://cff2.earth.com/uploads/2019/06/07144912/Millions-of-cardiovascular-deaths-linked-to-not-eating-enough-fruits-and-veggies-730x410.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     height: 250px;
-    width: 80%;
+    width: 100%;
 }
 
 /* Footer and contact section */
